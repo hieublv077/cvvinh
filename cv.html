@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Phạm Ngọc Vinh</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 700px;
+            background: #fff;
+            padding: 30px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2C3E50;
+            text-transform: uppercase;
+            animation: slideIn 1s ease-out forwards;
+        }
+        .header p {
+            font-size: 16px;
+            color: #34495E;
+            animation: fadeIn 1.5s ease-out forwards;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            color: #2980B9;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .section p, .section ul {
+            font-size: 16px;
+            color: #7F8C8D;
+            margin-left: 20px;
+        }
+        .section ul {
+            list-style-type: square;
+        }
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            border: 3px solid #2980B9;
+            animation: fadeIn 1.5s ease-out forwards;
+        }
+        .info {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .info p {
+            margin: 5px 0;
+        }
+        /* Animation Effects */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header with Name and Email -->
+        <div class="header">
+            <h1>Phạm Ngọc Vinh</h1>
+            <p>Email: phamngocvinh1745@gmail.com | Số điện thoại: 0377277546</p>
+        </div>
+
+        <!-- Profile Picture in the Top Left Corner -->
+        <img src="file:///C:/Users/Admin/Downloads/VINH.jpg" alt="Ảnh đại diện" class="profile-pic">
+
+        <!-- CV Content Sections -->
+        <div class="content">
+            <div class="section">
+                <h2>Mục tiêu nghề nghiệp</h2>
+                <p>Mong muốn trở thành lập trình viên chuyên nghiệp, phát triển kỹ năng lập trình C và các công nghệ liên quan.</p>
+            </div>
+            <div class="section">
+                <h2>Học vấn</h2>
+                <p><strong>Sơ đồ học vấn:</strong></p>
+                <ul>
+                    <li>Đại học ABC, Chuyên ngành Công nghệ Thông tin (2021 - 2025)</li>
+                    <li>Bằng tốt nghiệp THPT (2019)</li>
+                </ul>
+                <p><strong>Khóa học:</strong></p>
+                <ul>
+                    <li>Tiếng Trung cơ bản</li>
+                    <li>Tiếng Anh cơ bản</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Kỹ năng</h2>
+                <ul>
+                    <li>Lập trình C, Python, JavaScript</li>
+                    <li>Thiết kế giao diện web với HTML, CSS</li>
+                    <li>Quản lý dự án và làm việc nhóm</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Sở thích</h2>
+                <ul>
+                    <li>Bơi lội</li>
+                    <li>Cầu lông</li>
+                    <li>Nấu ăn</li>
+                    <li>Xem phim</li>
+                </ul>
+            </div>
+            <!-- New Section: Chiều cao và Cân nặng -->
+            <div class="section">
+                <h2>Thông tin cá nhân</h2>
+                <ul>
+                    <li>Chiều cao: 1m75</li>
+                    <li>Cân nặng: 70kg</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
